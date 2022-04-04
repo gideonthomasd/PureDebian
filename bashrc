@@ -124,6 +124,7 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
+PATH=$PATH:/snap/bin
+alias getsnap='cp /var/lib/snapd/desktop/applications/*.desktop ~/.local/share/applications/'
 neofetch
 
