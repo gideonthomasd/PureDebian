@@ -44,6 +44,8 @@ cd ..
 
 cd ..
 
+sudo apt install -y snapd
+
 
 
 
