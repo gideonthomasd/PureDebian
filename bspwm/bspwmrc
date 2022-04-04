@@ -19,6 +19,7 @@ lxpolkit &
 picom &
 #volumeicon &
 nm-applet &
+parcellite &
 #blueman-applet &
 
 $HOME/.config/polybar-bspwm/launch.sh &
