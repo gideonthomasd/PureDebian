@@ -11,15 +11,15 @@ sudo cp sources.list /etc/apt/sources.list
 
 sudo apt update && sudo apt upgrade
 
-sudo apt install vlc libavcodec-extra
-sudo apt install libdvdread8 libdvdcss2
+sudo apt install -y vlc libavcodec-extra
+sudo apt install -y libdvdread8 libdvdcss2
 
 sudo dpkg-reconfigure libdvd-pkg
 
-sudo apt install git xorg pavucontrol pulseaudio lightdm xarchiver unzip network-manager network-manager-gnome
+sudo apt install -y git xorg pavucontrol pulseaudio lightdm xarchiver unzip network-manager network-manager-gnome
 
 sudo service NetworkManager restart
 
-sudo apt install alsa-utils alsa-oss alsamixergui apulse
+sudo apt install -y alsa-utils alsa-oss alsamixergui apulse
 
 sudo alsactl init
