@@ -1,14 +1,14 @@
 #!/bin/bash -e
 
-cd awesome
-chmod +x *.sh
-cd polybar
-chmod +x *.sh
-cd scripts
-chmod +x *.sh
-cd ..
-cd ..
-cd ..
+#cd awesome
+#chmod +x *.sh
+#cd polybar
+#chmod +x *.sh
+#cd scripts
+#chmod +x *.sh
+#cd ..
+#cd ..
+#cd ..
 
 cd openbox
 cd openbox2
@@ -64,11 +64,11 @@ chmod +x *.sh
 cd ..
 cd ..
 
-cp brave.png ~/Pictures
-cp exit.png ~/Pictures
-cp files.png ~/Pictures
-cp settings.png ~/Pictures
-cp startup.png ~/Pictures
+#cp brave.png ~/Pictures
+#cp exit.png ~/Pictures
+#cp files.png ~/Pictures
+#cp settings.png ~/Pictures
+#cp startup.png ~/Pictures
 
 #########Install Directories & Files######
 mkdir -p ~/.config/picom
@@ -183,17 +183,17 @@ cp autostart.sh ~/.local/share/dwm
 
 
 ######### Awesome ##################################
-mkdir -p ~/.config/awesome
-git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/lcpz/awesome-copycats.git
-mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
+#mkdir -p ~/.config/awesome
+#git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/lcpz/awesome-copycats.git
+#mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
 
-cd awesome
-cp -r * ~/.config/awesome
-cd ..
+#cd awesome
+#cp -r * ~/.config/awesome
+#cd ..
 
 
-cd ~/.config/awesome
-git clone https://github.com/streetturtle/awesome-wm-widgets.git
+#cd ~/.config/awesome
+#git clone https://github.com/streetturtle/awesome-wm-widgets.git
 
 ######## Ending ####################################
 cd ~/Luke/dwm-flexipatch
