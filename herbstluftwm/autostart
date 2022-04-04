@@ -15,6 +15,7 @@ xsetroot -solid '#5A8E3A'
 ###########################
 
 picom &
+parcellite &
 nm-applet &
 lxpolkit &
 sxhkd -c ~/.config/herbstluftwm/sxhkdrc &
