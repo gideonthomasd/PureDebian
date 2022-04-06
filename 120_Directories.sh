@@ -210,6 +210,6 @@ sudo make clean install
 sudo apt install flatpak
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.github.unrud.VideoDownloader
-
+flatpak install flathub org.xiphos.Xiphos
 
 
